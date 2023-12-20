@@ -26,7 +26,6 @@ jobs:
       - name: Download archive text file
         uses: actions/download-artifact@v2
         with:
-          name: hello-artifact
           path: ./artifacts
 
       - name: Cat text file
