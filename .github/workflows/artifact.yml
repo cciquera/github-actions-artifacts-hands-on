@@ -13,6 +13,9 @@ jobs:
     - name: Create a text file
       run: echo "Hello, world!" > hello.txt
 
+    - name: List files
+      run: ls -R
+
     - name: Archive text file
       uses: actions/upload-artifact@v2
       with:
