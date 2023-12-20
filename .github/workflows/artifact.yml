@@ -30,6 +30,6 @@ jobs:
           path: hello.txt
 
       - name: Cat text file
-        run: cat .artifacts/hello.txt
+        run: cat ./artifacts/hello.txt
         
     
